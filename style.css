@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/premium-photo/burger-wood-table-with-copy-space_23-2148272995.jpg?w=740);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+
+.icons {
+    position: absolute;
+    word-spacing: 5pt;
+    left: 75%;
+    top: 6%;
+    border: none;
+ 
+    
+}
+
+.btn:hover {
+    background-color:orange;
+    cursor: pointer;
+  }
+li a:hover:not(.active) {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
+a:active {
+    color: orange;
+
+}
+
+.container {
+    position: relative;
+
+}
+
+.top {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 5%;
+    font-family: serif;
+    font-size: 34pt;
+
+}
+
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: 14pt;
+
+}
+
+ul {
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+li {
+    padding: 15px;
+    display: inline;
+
+}
+
+.right {
+    position: absolute;
+    margin-top: 3%;
+    right: 4%;
+    color: aqua;
+    border-radius: 8cm;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-color: orange;
+    background-color: orange;
+    font-size: 15pt;
+}
+
+.medium {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-size: 30pt;
+    font-family: serif;
+    color: antiquewhite;
+}
+
+.m {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: aliceblue;
+}
+
+
+
+.ordering {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 5%;
+    color: aliceblue;
+    background-color: orange;
+    border-style: initial;
+    border-radius: 8cm;
+    padding: 1%;
+    font-size: 20px;
+}
+
+.objects img {
+    position: relative;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    border-color: orange;
+    border-style: solid;
+    border-width: 1.5mm;
+}
+
+
+.object1 {
+    position: relative;
+    display: inline-table;
+    margin-left: 14%;
+    margin-top: 0.5%;
+}
+
+.object2 {
+    position: relative;
+    display: inline-table;
+    margin-left: 33%;
+    margin-top: 0.5%;
+}
+
+
+.rectangle1 {
+    top: 115%;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 50%;
+    height: 170px;
+    width: 400px;
+    background-color: rgb(30, 35, 41);
+}
+
+.rectangle2 {
+    top: 115%;
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 20%;
+    height: 170px;
+    width: 400px;
+    background-color: rgb(30, 35, 41);
+}
+
+.now {
+    position: absolute;
+    padding-left: 200px;
+    padding-right: 200px;
+    top: 7.3in;
+    margin-left: 55%;
+    color: aliceblue;
+    background-color: orange;
+    border-style: initial;
+    border-radius: 8cm;
+    font-size: 20px;
+
+}
+
+.ord {
+    position: absolute;
+    padding-left: 200px;
+    padding-right: 200px;
+    top: 7.3in;
+    margin-left: 10%;
+    color: aliceblue;
+    background-color: orange;
+    border-style: initial;
+    border-radius: 8cm;
+    font-size: 20px;
+
+}
+
+h3 {
+    position: absolute;
+    top: 118%;
+    left: 26%;
+    font-size: 20pt;
+
+}
